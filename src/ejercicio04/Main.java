@@ -24,7 +24,7 @@ public static void main(String[] args) {
 
         // Mostrar la tabla de multiplicar correspondiente// 
         System.out.println("\nTabla de multiplicar del " + numero + ":");
-        //Bucle For//
+        //Bucle iterativa For//
         for (int i = 1; i <= 10; i++) {
             System.out.println(numero + " x " + i + " = " + (numero * i));
         }
@@ -32,9 +32,6 @@ public static void main(String[] args) {
         scanner.close();
     }
 }
-
-
-
 
 
 
